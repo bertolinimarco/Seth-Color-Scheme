@@ -6,4 +6,4 @@ A Seti_UI color scheme mod for Sublime Text 3
 
 Preferences > Settings 
 
-'"color_scheme": "Packages/Seth/seth.tmTheme",'
+"color_scheme": "Packages/Seth/seth.tmTheme",
