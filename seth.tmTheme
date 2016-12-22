@@ -596,7 +596,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#2ECC71</string>
+					<string>#F1C40F</string>
 				</dict>
 			</dict>
 
@@ -631,7 +631,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#F1C40F</string>
+					<string>#2ECC71</string>
 				</dict>
 			</dict>
 			<!-- "" -->
@@ -1209,7 +1209,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#CD3F45</string>
+					<string>#9FD0D8</string>
 				</dict>
 			</dict>
 
