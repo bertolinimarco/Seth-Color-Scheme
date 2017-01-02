@@ -2,8 +2,7 @@ A more readable and low eyestrain focused Sublime Text color scheme.
 
 ## Features and Differences
 - Focus: low eyestrain + readability
-- More readable tags and comments in HTML
-- Under constant development
+- Color scheme mashup from the best ST themes, with some more optimizations
 
 ## Install
 - Install via Package Control or clone this repo as `./Data/Packages/Seth`.
