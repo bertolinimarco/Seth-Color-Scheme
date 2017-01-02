@@ -1,6 +1,6 @@
 A more readable and low eyestrain focused Sublime Text color scheme.
 
-## Features and Differences
+## Features
 - Focus: low eyestrain + readability
 - Color scheme mashup from the best ST themes, with some more optimizations
 
