@@ -1,9 +1,9 @@
 A Seti_UI syntax mod for Sublime Text 3, with focus on HTML-CSS-Sass-JS
 
 ## Features and Differences
+- Focus: low eyestrain + readability
 - Color scheme mashup from Brogrammer + Seti UI
 - More readable tags and comments in HTML
-- Focus on low eyestrain
 - Under constant development
 
 ## Install
