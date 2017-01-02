@@ -1,10 +1,14 @@
 A Seti_UI syntax mod for Sublime Text 3, with focus on HTML-CSS-Sass-JS
 
-## Usage ##
+## Features and Differences
+- Color scheme mashup from Brogrammer + Seti UI
+- More readable tags and comments in HTML
+- Focus on low eyestrain
+- Under constant development
 
-Preferences > Settings 
-
-"color_scheme": "Packages/Seth/seth.tmTheme",
+## Install
+- Install via Package Control or clone this repo as `./Data/Packages/Seth`.
+- Use the package `themr` to switch themes, or edit your preferences file "color_scheme": "Packages/Seth/seth.tmTheme",
 
 ## Screenshot ##
 
