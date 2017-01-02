@@ -10,4 +10,4 @@ Preferences > Settings
 
 ## Screenshot ##
 
-![Screenshot](https://raw.githubusercontent.com/bert0z/Seth-Color-Scheme/master/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/bertolinimarco/Seth-Color-Scheme/master/screenshot.jpg)
