@@ -4,9 +4,12 @@ A more readable and low eyestrain focused Sublime Text color scheme.
 - Focus: low eyestrain + readability
 - Color scheme mashup from the best ST themes, with some more optimizations
 
-## Install
-- Install via Package Control or clone this repo as `./Data/Packages/Seth`.
-- Use the package `themr` to switch themes, or edit your preferences file `"color_scheme": "Packages/Seth/seth.tmTheme",`
+## Easy Install
+- Install via Package Control (coming soon)
+- Install via Colorsublime plugin (coming soon)
+
+### Manual Install
+- Clone this repo as `./Data/Packages/Seth` and edit your preferences file `"color_scheme": "Packages/Seth/seth.tmTheme",`
 
 ## Screenshot ##
 
