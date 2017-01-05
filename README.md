@@ -5,7 +5,7 @@ A more readable and low eyestrain focused Sublime Text color scheme.
 - Color scheme mashup from the best ST themes, with some more optimizations
 
 ## Easy Install
-- Install via Package Control (coming soon)
+- Install via Package Control, search for `Seth Color Scheme`
 - Install via Colorsublime plugin (coming soon)
 
 ### Manual Install
