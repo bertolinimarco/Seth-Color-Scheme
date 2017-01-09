@@ -6,7 +6,7 @@ A more readable and low eyestrain focused Sublime Text color scheme.
 
 ## Easy Install
 - Install via Package Control, search for `Seth Color Scheme`
-- Install via Colorsublime plugin (coming soon)
+- Install via Colorsublime plugin, search for `Seth`
 
 ### Manual Install
 - Clone this repo as `./Data/Packages/Seth` and edit your preferences file `"color_scheme": "Packages/Seth/seth.tmTheme",`
