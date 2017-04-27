@@ -2,14 +2,14 @@ A more readable and low eyestrain focused Sublime Text color scheme.
 
 ## Features
 - Focus: low eyestrain + readability
-- Color scheme mashup from the best ST themes, with some more optimizations
+- Color scheme mashup from the best themes, with some more optimizations
 
-## Install (Easy)
+## Install (ST3)
 - Install via Package Control, search for `Seth Color Scheme`
 - Install via Colorsublime plugin, search for `Seth`
 
-### Manual Install
-- Clone this repo as `./Data/Packages/Seth` and edit your preferences file `"color_scheme": "Packages/Seth/seth.tmTheme",`
+## Install (VSC)
+- Extension > search for `Seth`
 
 ## Screenshot ##
 
