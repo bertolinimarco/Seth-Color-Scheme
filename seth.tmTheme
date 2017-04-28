@@ -82,15 +82,6 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>scope</key>
-			<string>punctuation</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFEF7</string>
-			</dict>
-		</dict>
-		<dict>
 			<key>name</key>
 			<string>~ String Punctuation</string>
 			<key>scope</key>
@@ -181,32 +172,12 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>docstring</string>
-			<key>scope</key>
-			<string>string.quoted.double.block, string.docstring, string.quoted.single.block</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#218B97</string>
-			</dict>
-		</dict>
-		<dict>
 			<key>scope</key>
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#fff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>constant.language</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CD3F45</string>
 			</dict>
 		</dict>
 		<dict>
@@ -240,15 +211,6 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#FFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -309,24 +271,6 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#fff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>variable, punctuation.definition.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>variable.other</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#603F80</string>
 			</dict>
 		</dict>
 		<dict>
@@ -443,17 +387,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Support function</string>
-			<key>scope</key>
-			<string>support.function, support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#a074c4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Builtin function</string>
 			<key>scope</key>
 			<string>support.function.builtin</string>
@@ -465,17 +398,6 @@
 				<string>#fe5a7d80</string>
 				<key>background</key>
 				<string>#2f041e50</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String Quotes</string>
-			<key>scope</key>
-			<string>string.quoted punctuation.definition.string.begin, string.quoted punctuation.definition.string.end, punctuation.definition.string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -514,15 +436,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#EF9975</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>support.type</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#bdbdbd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -583,24 +496,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ECF0F1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2ECC71</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>punctuation.definition.string.begin.html, punctuation.definition.string.end.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F1C40F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -972,10 +867,10 @@
 			<string>keyword.other.phpdoc.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#ffd20060</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -985,10 +880,10 @@
 			<string>support.constant.core.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
 				<key>foreground</key>
 				<string>#FFA325</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -998,10 +893,10 @@
 			<string>support.constant.std.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
 				<key>foreground</key>
 				<string>#BBFD0D</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1013,17 +908,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#6969FA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Strings Double-Quoted</string>
-			<key>scope</key>
-			<string>string.quoted.double.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF6F5B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1044,8 +928,6 @@
 			<string>variable.other.global.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#FF4028</string>
 			</dict>
@@ -1059,8 +941,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#00FF00</string>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1110,15 +990,6 @@
 				<string>#9FD0D8</string>
 				<key>background</key>
 				<string>#94DDFF30</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>support.function.construct.php, support.function.array.php, meta.function-call.php variable.function.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1213,15 +1084,6 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>scope</key>
-			<string>keyword.control.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2ECC71</string>
-			</dict>
-		</dict>
-		<dict>
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
@@ -1229,7 +1091,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f68600</string>
+				<string>#fff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1265,7 +1127,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#aa00aa</string>
+				<string>#009fff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1309,17 +1171,6 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>var name</string>
-			<key>scope</key>
-			<string>variable.other.php, variable.parameter.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fff</string>
-			</dict>
-		</dict>
-		<dict>
 			<key>scope</key>
 			<string>variable.language.php</string>
 			<key>settings</key>
@@ -1338,19 +1189,21 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#009FFF</string>
+				<string>#9575CD</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<string>punctuation.section.embedded.begin.metatag.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#009FFF</string>
+				<string>#2196F3</string>
 				<key>background</key>
-				<string>#000</string>
+				<string>#000000</string>
 			</dict>
+			<key>name</key>
+			<string>PHP: Punctuation begin</string>
 		</dict>
 		<dict>
 			<key>scope</key>
@@ -1372,25 +1225,7 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009FFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
 			<string>source.php.embedded.block.html, punctuation.definition.array.begin.php, punctuation.definition.array.end.php, punctuation.definition.parameters.begin.php, punctuation.definition.parameters.end.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>meta.embedded.block.php source.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1491,15 +1326,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#bce6fe</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>meta.function-call.object.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#7aced3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -4063,6 +3889,184 @@
 			<dict>
 				<key>foreground</key>
 				<string>#603F80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keyword operator</string>
+			<key>scope</key>
+			<string>keyword.operator.assignment.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: inherited class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc107</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: class name</string>
+			<key>scope</key>
+			<string>support.class.php, entity.name.class.php, entity.name.trait.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffd200</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Function</string>
+			<key>scope</key>
+			<string>storage.type.function.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2196F3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Double quoted</string>
+			<key>scope</key>
+			<string>meta.string-contents.quoted.double.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Variable Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable.php,variable.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E57373</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Constant</string>
+			<key>scope</key>
+			<string>constant.language.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1F1F1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Function call obj</string>
+			<key>scope</key>
+			<string>meta.function-call.object.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00BCD4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Double quoted string</string>
+			<key>scope</key>
+			<string>string.quoted.double.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Function entity name</string>
+			<key>scope</key>
+			<string>entity.name.function.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4FC3F7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keyword control</string>
+			<key>scope</key>
+			<string>keyword.control.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49F5A5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Punctuation end</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.end.metatag.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2196F3</string>
+				<key>background</key>
+				<string>000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Construct output (echo)</string>
+			<key>scope</key>
+			<string>support.function.construct.output.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7D7D7D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Support Function</string>
+			<key>scope</key>
+			<string>support.function.string.php,support.function.json.php,support.function.construct.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF9800</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Meta String Content</string>
+			<key>scope</key>
+			<string>meta.string-contents.quoted.single.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Support Function (datetime)</string>
+			<key>scope</key>
+			<string>support.function.datetime.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A8A8A8</string>
 			</dict>
 		</dict>
 	</array>
