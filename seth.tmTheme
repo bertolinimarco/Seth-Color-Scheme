@@ -32,9 +32,9 @@
 				<key>rangeHighlight</key>
 				<string>#F3F0F5</string>
 				<key>selection</key>
-				<string>#00000096</string>
+				<string>#444444</string>
 				<key>inactiveSelection</key>
-				<string>#BF0D1CC0</string>
+				<string>#000000</string>
 				<key>selectionHighlight</key>
 				<string>#ADD6FF80</string>
 				<key>findRangeHighlight</key>
@@ -96,7 +96,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CBCDD2</string>
+				<string>#7F87CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F87CF</string>
+				<string>#FFC107</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +133,7 @@
 				<key>foreground</key>
 				<string>#FF8A65</string>
 				<key>fontStyle</key>
-				<string> italic </string>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,10 +154,10 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>  italic</string>
 				<key>foreground</key>
 				<string>#40A9E2</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,7 +170,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFC107</string>
+				<string>#2ED184</string>
 			</dict>
 		</dict>
 		<dict>
@@ -181,22 +181,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC107</string>
-				<key>fontStyle</key>
-				<string> italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag name</string>
-			<key>scope</key>
-			<string>entity.name.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#EE644C</string>
+				<string>#788691</string>
 			</dict>
 		</dict>
 		<dict>
@@ -288,19 +273,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML: ID</string>
-			<key>scope</key>
-			<string>meta.toc-list.id.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#00FF0D</string>
-				<key>background</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>HTML: Entity (other)</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.html</string>
@@ -356,35 +328,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML: Entity (script)</string>
-			<key>scope</key>
-			<string>entity.name.tag.script.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EE644C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML: Entity name (tag)</string>
-			<key>scope</key>
-			<string>entity.name.tag.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#40A9E2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>HTML: Basic Text</string>
 			<key>scope</key>
 			<string>text.html.basic</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C2C2C2</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -472,7 +422,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#40A9E2</string>
+				<string>#EE644C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -532,92 +482,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Number</string>
-			<key>scope</key>
-			<string>constant.numeric.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EF7C2A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Built-in constant</string>
-			<key>scope</key>
-			<string>constant.language.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EF7C2A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character.js, constant.other.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EF7C2A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Variable</string>
-			<key>scope</key>
-			<string>variable.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F1F1F1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JS: Keyword</string>
 			<key>scope</key>
-			<string>keyword.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Storage</string>
-			<key>scope</key>
-			<string>storage.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#EB3D54</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Storage type</string>
-			<key>scope</key>
-			<string>storage.type.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EB3D54</string>
-				<key>fontStyle</key>
-				<string> italic </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Class name</string>
-			<key>scope</key>
-			<string>entity.name.class.js</string>
+			<string>keyword.operator.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -626,87 +493,97 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Inherited class</string>
+			<string>JS: Constant</string>
 			<key>scope</key>
-			<string>entity.other.inherited-class.js</string>
+			<string>constant.numeric.js,constant.language.boolean.true.js,constant.numeric.decimal.js</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>  italic</string>
 				<key>foreground</key>
 				<string>#40A9E2</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Function name</string>
+			<string>HTML: Tag (any)</string>
 			<key>scope</key>
-			<string>entity.name.function.js</string>
+			<string>entity.name.tag.other.html,entity.name.tag.block.any.html,meta.tag.any.html</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#40A9E2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: include(php)</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#EE644C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Function argument</string>
+			<string>HTML: include tag (php)</string>
 			<key>scope</key>
-			<string>variable.parameter.js</string>
+			<string>keyword.control.import.include.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#FF8A65</string>
-				<key>fontStyle</key>
-				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Tag name</string>
+			<string>PHP: Punctuation</string>
 			<key>scope</key>
-			<string>entity.name.tag.js</string>
+			<string>source.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Tag attribute</string>
+			<string>PHP: Operator</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.js</string>
+			<string>keyword.operator.class.php,keyword.operator.assignment.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#2ED184</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Library function</string>
+			<string>PHP: Constant</string>
 			<key>scope</key>
-			<string>support.function.js</string>
+			<string>constant.language.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#40A9E2</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: px (unit)</string>
+			<string>PHP: Function call object</string>
 			<key>scope</key>
-			<string>keyword.other.unit.px.css</string>
+			<string>meta.function-call.object.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ED922E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: String</string>
+			<key>scope</key>
+			<string>string.quoted.double.js,string.quoted.single.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -715,13 +592,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Support Function</string>
+			<string>JS: source</string>
 			<key>scope</key>
-			<string>support.function.js</string>
+			<string>source.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ED922E</string>
+				<string>#DDDDDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object</string>
+			<key>scope</key>
+			<string>meta.object-literal.key.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#788691</string>
 			</dict>
 		</dict>
 	</array>
@@ -733,5 +621,7 @@
 	<string>theme.dark.seth</string>
 	<key>author</key>
 	<string>Marco Bertolini</string>
+	<key>comment</key>
+	<string>A new FED color scheme.</string>
 </dict>
 </plist>

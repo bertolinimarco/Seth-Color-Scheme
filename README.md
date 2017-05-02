@@ -1,4 +1,4 @@
-A more readable and low eyestrain focused Sublime Text color scheme.
+A more readable and low eyestrain focused color scheme, with focus on Front End Development.
 
 ## Features
 - Focus: low eyestrain + readability
