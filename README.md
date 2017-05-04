@@ -1,8 +1,9 @@
-A more readable and low eyestrain focused color scheme, with focus on Front End Development.
+A scope-oriented theme, with focus on Front End Development triad (HTML-CSS-JS).
+
+> Suggested Font: Operator Mono or Fira Code
 
 ## Features
-- Focus: low eyestrain + readability
-- Color scheme mashup from the best themes, with some more optimizations
+- Focus: scope readability, distinctive palette
 
 ## Install (ST3)
 - Install via Package Control, search for `Seth Color Scheme`
