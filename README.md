@@ -15,10 +15,3 @@ A scope-oriented theme, with focus on Front End Development triad (HTML-CSS-JS).
 ## Screenshot ##
 
 ![Screenshot](https://raw.githubusercontent.com/bertolinimarco/Seth-Color-Scheme/master/screenshot.jpg)
-
-## Credits
-
-This theme is based on the following awesome projects:
-
-* [Seti UX](https://github.com/ctf0/Seti_UX) _(General inspiration)_
-* [Theme - Brogrammer](https://github.com/kenwheeler/brogrammer-theme) _(Initial color scheme)_

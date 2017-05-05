@@ -20,11 +20,11 @@
 				<key>foreground</key>
 				<string>#cbcdd2</string>
 				<key>invisibles</key>
-				<string>#737373</string>
+				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#333333</string>
+				<string>#383838</string>
 				<key>selection</key>
-				<string>#333333</string>
+				<string>#383838</string>
 			</dict>
 		</dict>
 		<dict>
@@ -202,21 +202,6 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#ffc107</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Tag attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.class.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>normal</string>
 				<key>foreground</key>
 				<string>#ffc107</string>
 			</dict>
@@ -328,13 +313,13 @@
 			<key>name</key>
 			<string>HTML: Attribute name</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html,entity.other.attribute-name.php</string>
+			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#2ED184</string>
-				<key>fontStyle</key>
-				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -371,27 +356,29 @@
 			</dict>
 		</dict>
 		<dict>
-	 <key>name</key>
-	 <string>Italic HTML attribute names</string>
-	 <key>scope</key>
-	 <string>
-	 entity.other.attribute-name.html,
-	 entity.other.attribute-name.event.html,
-	 entity.other.attribute-name.id.html,
-	 entity.other.attribute-name.class.html,
-	 entity.other.attribute-name.tag.jade,
-	 constant.other.symbol.ruby
-	 </string>
-	 <key>settings</key>
-	 <dict>
-	 <key>foreground</key>
-	 <string>#ffc600</string>
-	 <key>fontStyle</key>
-	 <string>italic</string>
-	 </dict>
-	 </dict>
-
-		
+			<key>name</key>
+			<string>Italic HTML attribute names</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.html,entity.other.attribute-name.event.html,entity.other.attribute-name.id.html,entity.other.attribute-name.class.html,entity.other.attribute-name.tag.jade,constant.other.symbol.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2ED184</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>html - script</string>
+			<key>scope</key>
+			<string>entity.name.tag.script.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB3D54</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
